@@ -1,0 +1,154 @@
+{
+  "programs": [
+    {
+      "id": "week1",
+      "name": "Week 1: Foundation",
+      "focus": "Learn movement patterns & wake up dormant muscles",
+      "difficulty": 1,
+      "days": [
+        {
+          "day": 1,
+          "label": "Day 1 — Posterior Chain Focus",
+          "warmup": ["w1", "w2", "w8", "w3"],
+          "main": ["m1", "m5", "m10", "m13", "m18"],
+          "cooldown": ["c1", "c3", "c6"]
+        },
+        {
+          "day": 2,
+          "label": "Day 2 — Posture & Core",
+          "warmup": ["w4", "w6", "w3", "w7"],
+          "main": ["m6", "m8", "m9", "m11", "m17"],
+          "cooldown": ["c4", "c5", "c8"]
+        },
+        {
+          "day": 3,
+          "label": "Day 3 — Full Body Integration",
+          "warmup": ["w5", "w1", "w9", "w8"],
+          "main": ["m2", "m5", "m13", "m19", "m10"],
+          "cooldown": ["c2", "c1", "c7"]
+        },
+        {
+          "day": 4,
+          "label": "Day 4 — Hip & Glute Emphasis",
+          "warmup": ["w2", "w10", "w1", "w7"],
+          "main": ["m1", "m18", "m2", "m23", "m9"],
+          "cooldown": ["c3", "c2", "c6"]
+        }
+      ]
+    },
+    {
+      "id": "week2",
+      "name": "Week 2: Build",
+      "focus": "Add volume, introduce unilateral & compound movements",
+      "difficulty": 2,
+      "days": [
+        {
+          "day": 1,
+          "label": "Day 1 — Unilateral Strength",
+          "warmup": ["w10", "w2", "w8", "w6"],
+          "main": ["m3", "m22", "m24", "m12", "m18", "m4"],
+          "cooldown": ["c2", "c4", "c8"]
+        },
+        {
+          "day": 2,
+          "label": "Day 2 — Push, Pull & Core",
+          "warmup": ["w4", "w9", "w3", "w7"],
+          "main": ["m17", "m5", "m14", "m9", "m6", "m11"],
+          "cooldown": ["c5", "c1", "c6"]
+        },
+        {
+          "day": 3,
+          "label": "Day 3 — Compound Power",
+          "warmup": ["w5", "w1", "w10", "w8"],
+          "main": ["m20", "m7", "m21", "m15", "m19", "m12"],
+          "cooldown": ["c3", "c7", "c2"]
+        },
+        {
+          "day": 4,
+          "label": "Day 4 — Full Body Challenge",
+          "warmup": ["w2", "w6", "w9", "w3"],
+          "main": ["m4", "m24", "m22", "m15", "m2", "m9"],
+          "cooldown": ["c1", "c4", "c8"]
+        }
+      ]
+    }
+  ],
+  "recoveryProgram": {
+    "week1": [
+      {
+        "day": 1,
+        "label": "Evening Recovery A — Release & Restore",
+        "sections": [
+          { "name": "Release & Decompress", "icon": "🫠", "exercises": ["r1", "r2", "r3", "r4"] },
+          { "name": "Gentle Mobility", "icon": "🔄", "exercises": ["r5", "r7", "r8"] },
+          { "name": "PT Activation", "icon": "⚡", "exercises": ["r10", "r11", "r13"] },
+          { "name": "Deep Stretch", "icon": "🌙", "exercises": ["r14", "r16", "r18"] }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "Evening Recovery B — Spine & Hips",
+        "sections": [
+          { "name": "Release & Decompress", "icon": "🫠", "exercises": ["r1", "r3", "r4"] },
+          { "name": "Gentle Mobility", "icon": "🔄", "exercises": ["r6", "r9", "r7"] },
+          { "name": "PT Activation", "icon": "⚡", "exercises": ["r10", "r12", "r13"] },
+          { "name": "Deep Stretch", "icon": "🌙", "exercises": ["r15", "r17", "r18"] }
+        ]
+      }
+    ],
+    "week2": [
+      {
+        "day": 1,
+        "label": "Evening Recovery C — Deep Release",
+        "sections": [
+          { "name": "Release & Decompress", "icon": "🫠", "exercises": ["r1", "r2", "r4"] },
+          { "name": "Gentle Mobility", "icon": "🔄", "exercises": ["r5", "r8", "r9"] },
+          { "name": "PT Activation", "icon": "⚡", "exercises": ["r11", "r12", "r10"] },
+          { "name": "Deep Stretch", "icon": "🌙", "exercises": ["r14", "r15", "r16", "r18"] }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "Evening Recovery D — Full Restoration",
+        "sections": [
+          { "name": "Release & Decompress", "icon": "🫠", "exercises": ["r2", "r3", "r1"] },
+          { "name": "Gentle Mobility", "icon": "🔄", "exercises": ["r6", "r7", "r5", "r9"] },
+          { "name": "PT Activation", "icon": "⚡", "exercises": ["r10", "r11", "r13", "r12"] },
+          { "name": "Deep Stretch", "icon": "🌙", "exercises": ["r15", "r17", "r16", "r18"] }
+        ]
+      }
+    ]
+  },
+  "coachMessages": {
+    "start": [
+      "Let's wake up those dormant muscles! Your desk can't hold you hostage today. 💪",
+      "Ready to undo the damage of sitting? Let's build a stronger you!",
+      "Your body was made to move. Let's give those inactive muscles some love today.",
+      "Time to fire up the posterior chain! Sitting is the new smoking — let's fight back."
+    ],
+    "midway": [
+      "Halfway there! Your glutes are thanking you right now. Keep pushing!",
+      "You're crushing it! Remember: every rep is an investment in a pain-free body.",
+      "Nice work! Your posture is already improving. Stay focused on form!"
+    ],
+    "complete": [
+      "Workout DONE! 🎉 You just fought back against 8 hours of sitting. Be proud!",
+      "Amazing session! Your future self thanks you. See you next workout!",
+      "That's a wrap! Consistency beats perfection. You showed up — that's what matters."
+    ],
+    "recoveryStart": [
+      "Time to decompress. Your body held you up all day — let's give it some love.",
+      "Evening recovery mode. Let's release, restore, and prepare for deep sleep.",
+      "Wind-down time. Every stretch tonight means a better morning tomorrow."
+    ],
+    "recoveryComplete": [
+      "Recovery complete ✨ Your spine is decompressed and hips are open. Sleep well.",
+      "Beautiful session. This is when the real healing happens — during sleep tonight.",
+      "You just invested in tomorrow's body. Rest easy — you've earned it."
+    ],
+    "pain": [
+      "Pain is your body talking. Let's modify this to keep you moving safely.",
+      "Smart move flagging that. We'll adjust to work around it."
+    ]
+  }
+}
